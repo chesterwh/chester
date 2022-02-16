@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(wall.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 0 10px 5px black;
+}
+.logo {
+    height: 30px;
+    width: auto;
+}
+.logo2 {
+    height: 33px;
+    width: auto;
+}
+.text {
+    color: white;
+}
+.text2 {
+    color: white;
+    font-size:xx-large;
+}
+
+.bulet{
+    height: 200px;
+    width: auto;
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+}
+
+.tab{
+    word-spacing: 30px;
+}
